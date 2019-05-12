@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PostForm from './PostForm';
-import AllPost from './AllPost';
+
 
 import Titles from './Titles';
 
@@ -19,8 +19,7 @@ class Home extends Component {
                   <div className="col-xs-7 form-container">
                     <PostForm />
                   </div>
-                </div>
-                <AllPost />
+                </div> 
               </div>
             </div>
           </div>

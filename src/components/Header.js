@@ -28,7 +28,7 @@ class Header extends Component {
   render() {
     return (
       <div className="container">
-        <Navbar color="light" light expand="md">
+        <Navbar light expand="md">
           <NavbarBrand href="/">Insiten Tracker</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
