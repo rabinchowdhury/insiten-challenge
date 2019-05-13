@@ -13,8 +13,10 @@ const postReducer = (state = [], action) => {
   if (post.id === action.id) {
   return {
   ...post,
-  title: action.data.newTitle,
-  message: action.data.newMessage,
+  company: action.data.newCompany,
+  status: action.data.newStatus,
+  information: action.data.newInformation,
+  contacts: action.data.newContacts,
   editing: !post.editing
   }
   } else return post;

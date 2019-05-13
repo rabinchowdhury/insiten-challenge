@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 
 import { connect } from 'react-redux';
+
 class Post extends Component {
   
   render() {
     return (
     <div className="post">
-      <h2 className="post_title">{this.props.post.title}</h2>
-      <p className="post_message">{this.props.post.message}</p>
+      <h2 className="post_company">Company: {this.props.post.company}</h2>
+      <p className="post_status">Status: {this.props.post.status}</p>
+      <p className="post_information">Company Information: {this.props.post.information}</p>
+      <p className="post_contacts">Company Contacts: {this.props.post.contacts}</p>
       <div className="control-buttons">
       <button className="edit"
       onClick={() => this.props.dispatch({ type: 'EDIT_POST', id: this.props.post.id })
