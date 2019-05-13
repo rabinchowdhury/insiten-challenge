@@ -10,7 +10,7 @@ class Post extends Component {
         <h3 className="post_company">Company: {this.props.post.company}</h3>
         <p className="post_status"><b>Status:</b> {this.props.post.status}</p>
         <p className="post_information"><b>Company Information:</b> {this.props.post.information}</p>
-        <p className="post_contacts"><b>Company Contacts:</b> {this.props.post.contacts}</p>
+        <p className="post_contacts"><b>Key Contacts:</b> {this.props.post.contacts}</p>
         
         <div className="control-buttons">
           

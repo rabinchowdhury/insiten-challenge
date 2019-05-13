@@ -1,0 +1,53 @@
+.form {
+
+    @include flexCenter();
+    
+    flex-direction: column;
+    input {
+        width:80%; 
+        max-width:80%;
+        padding-left:15px;
+        padding-right:15px;
+        color:#636363;
+        outline:none; /* Removes outline */
+    }
+    textarea {
+        width:80%; 
+        max-width:80%;
+        padding-left:15px;
+        padding-right:15px;
+        padding-top:15px;
+        border: 1px solid $submitBtn;
+        border-radius:2px;
+        color: $submitBtn;
+        outline:none;
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-weight: 100;
+    }
+    button {
+        /* background:$editBtn; */
+        padding:15px 40px;
+        text-align: center;
+        color:#fff;
+        font-family:'Work Sans',sans-serif;
+        border:none;
+        font-size:20px;
+        padding:10px 25px;
+        border-radius: 4px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        background-color: $submitBtn;
+        font-weight: 100;
+    }
+}
+
+input[type="text"] {
+    border: 0;
+    border-bottom: solid 1px $submitBtn;
+    padding-bottom: 4px;
+    color: $submitBtn !important;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
