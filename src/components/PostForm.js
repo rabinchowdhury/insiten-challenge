@@ -32,7 +32,8 @@ class PostForm extends Component {
   render() {
     return (
     <div className="post-container">
-      <h1 className="post_heading">Add Company</h1>
+      <h3 className="title-container__title">Add Company Details</h3>
+      <br/>
       <form className="form" onSubmit={this.handleSubmit} >
       <input required type="text" ref={(input) => this.getCompany = input}
       placeholder="Enter Company Name..." /><br /><br />
