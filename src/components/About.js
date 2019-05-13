@@ -8,10 +8,10 @@ class About extends Component {
     posts: []
   };
   componentDidMount() {
-    axios.get("https://api.myjson.com/bins/spp3q").then(res => {
+    axios.get("https://api.myjson.com/bins/ae0q2").then(res => {
       console.log(res);
       this.setState({
-        posts: res.data.slice(0, 1)
+        posts: res.data.slice(0, 2)
       });
     });
   }
