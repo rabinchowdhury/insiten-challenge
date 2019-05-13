@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 class PostForm extends Component {
-  
+
   handleSubmit = (e) => {
   e.preventDefault();
   const company = this.getCompany.value;
@@ -43,7 +43,7 @@ class PostForm extends Component {
       cols="28" placeholder="Enter Company Information..." /><br /><br />
       <input required type="text" ref={(input) => this.getContacts = input}
       placeholder="Enter Key Contacts..." /><br /><br />
-      <button>Post</button>
+      <button onClick={() => { alert('View targets on the view page!') }}>Submit</button>
       </form>
     </div>
     );

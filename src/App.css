@@ -5,7 +5,7 @@
 body {
   /* margin: 0;
   padding: 0; */
-  background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
   font-family: "Open Sans", serif;
 }
 
@@ -126,7 +126,7 @@ a:hover {
   background: #fff;
   padding:50px;
   width:100%;
-  margin: 20px 50px auto 110px;
+  margin: 20px 50px auto 80px;
   /* box-shadow:0 5px 15px 0 rgba(46, 61, 73, 0.12); */
   /* font-family:'Work Sans',sans-serif; */
 }
