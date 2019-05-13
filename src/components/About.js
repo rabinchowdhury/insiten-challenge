@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import AllPost from './AllPost';
 
 class About extends Component {
 
@@ -7,7 +6,6 @@ class About extends Component {
     return (
       <div>
         <h1>About Works!</h1>
-        <AllPost />
       </div>
     );
   }
