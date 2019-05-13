@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+// Simple React Bootstrap 4 components
 import {
   Collapse,
   Navbar,
@@ -25,6 +26,7 @@ class Header extends Component {
       isOpen: !this.state.isOpen
     });
   }
+  
   render() {
     return (
       <div className="container">

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+// Promise based HTTP client for the browser and node.js
 import axios from "axios";
 
 class About extends Component {

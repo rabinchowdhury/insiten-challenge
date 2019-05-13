@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 class EditComponent extends Component {
-
   handleEdit = (e) => {
     e.preventDefault();
     const newCompany = this.getCompany.value;

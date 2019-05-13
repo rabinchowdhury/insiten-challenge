@@ -4,7 +4,6 @@ import { connect } from 'react-redux';
 
 class PostForm extends Component {
 
-
   handleSubmit = (e) => {
   e.preventDefault();
   const company = this.getCompany.value;
@@ -33,7 +32,7 @@ class PostForm extends Component {
   render() {
     return (
     <div className="post-container">
-      <h3 className="title-container__title">Add Company Details</h3>
+      <p className="title-container__title">Add Company Details</p>
       <br/>
       <form className="form" onSubmit={this.handleSubmit} >
       <input required type="text" ref={(input) => this.getCompany = input}
@@ -44,7 +43,7 @@ class PostForm extends Component {
       cols="28" placeholder="Enter Company Information..." /><br /><br />
       <input required type="text" ref={(input) => this.getContacts = input}
       placeholder="Enter Key Contacts..." /><br /><br />
-      <button onClick={() => { alert('View targets on the view page!') }}>Submit</button>
+      <button onClick={() => { alert('View Target Companies on the View Page!') }}>Submit</button>
       </form>
     </div>
     );

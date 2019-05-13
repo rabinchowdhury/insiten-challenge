@@ -6,7 +6,6 @@ import Post from './Post';
 import EditComponent from './EditComponent';
 
 class AllPost extends Component {
-
   render() {
     return (
       <div>
