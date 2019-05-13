@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 
 class PostForm extends Component {
 
+
   handleSubmit = (e) => {
   e.preventDefault();
   const company = this.getCompany.value;

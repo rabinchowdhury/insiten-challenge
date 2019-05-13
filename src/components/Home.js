@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
+
 import PostForm from './PostForm';
-
-
 import Titles from './Titles';
 
 class Home extends Component {
