@@ -38,7 +38,10 @@ class Header extends Component {
               </NavItem>
               <NavItem>
                 <NavLink href="/targets">VIEW</NavLink>
-              </NavItem>   
+              </NavItem> 
+              <NavItem>
+                <NavLink href="/about">ABOUT</NavLink>
+              </NavItem>     
             </Nav>
           </Collapse>
         </Navbar>
