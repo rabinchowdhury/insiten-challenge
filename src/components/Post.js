@@ -1,30 +1,40 @@
 import React, { Component } from 'react';
 
+import { Table } from 'reactstrap';
+
 import { connect } from 'react-redux';
 
 class Post extends Component {
-  
+
   render() {
     return (
-      <div className="post">
-        <h3 className="post_company">Company: {this.props.post.company}</h3>
-        <p className="post_status"><b>Status:</b> {this.props.post.status}</p>
-        <p className="post_information"><b>Company Information:</b> {this.props.post.information}</p>
-        <p className="post_contacts"><b>Key Contacts:</b> {this.props.post.contacts}</p>
-        
-        <div className="control-buttons">
-          
-          {/* Post buttons */}
-          
-          <button className="edit"
-          onClick={() => this.props.dispatch({ type: 'EDIT_POST', id: this.props.post.id })
-          }
-          >Edit</button>
-          <button className="delete"
-          onClick={() => this.props.dispatch({ type: 'DELETE_POST', id: this.props.post.id })}
-          >Delete</button>
-
-        </div>
+      <div>
+      <Table>
+        <thead>
+          <tr>
+            <th>Status</th>
+            <th>Company Name</th>
+            <th>Key Contacts</th>
+            <th>Financial Performance</th>
+            <th>Edit</th>
+            <th>Delete</th>
+          </tr> 
+        </thead>
+        <tbody>
+          <tr>
+            <td><p className="post_status">{this.props.post.status}</p></td>
+            <td><p className="post_company">{this.props.post.company}</p></td>
+            <td><p className="post_contacts">{this.props.post.contacts}</p></td>
+            <td><p className="post_performance">{this.props.post.performance}</p></td>
+            <td>
+              <button className="edit" onClick={() => this.props.dispatch({ type: 'EDIT_POST', id: this.props.post.id })}>Edit</button>
+            </td>
+            <td>
+              <button className="delete" onClick={() => this.props.dispatch({ type: 'DELETE_POST', id: this.props.post.id })}>Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </Table>
       </div>
     );
   }

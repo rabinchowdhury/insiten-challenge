@@ -1,8 +1,11 @@
 .form {
 
-    @include flexCenter();
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     flex-direction: column;
+    
     input {
         width:80%; 
         max-width:80%;
@@ -16,12 +19,12 @@
         max-width:80%;
         padding-left:15px;
         padding-right:15px;
-        padding-top:15px;
+        // padding-top:15px;
         border: 1px solid $submitBtn;
         border-radius:2px;
         color: $submitBtn;
         outline:none;
-        font-size: 20px;
+        font-size: 15px;
         letter-spacing: 2px;
         font-weight: 100;
     }
@@ -42,11 +45,13 @@
 }
 
 input[type="text"] {
-    border: 0;
+    border: 0px;
     border-bottom: solid 1px $submitBtn;
     padding-bottom: 4px;
     color: $submitBtn !important;
     font-weight: 100;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 15px;
+    border-radius: 0px;
+    background: transparent;
 }

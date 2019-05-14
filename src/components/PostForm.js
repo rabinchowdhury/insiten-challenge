@@ -8,14 +8,14 @@ class PostForm extends Component {
   e.preventDefault();
   const company = this.getCompany.value;
   const status = this.getStatus.value;
-  const information = this.getInformation.value;
   const contacts = this.getContacts.value;
+  const performance = this.getPerformance.value;
   const data = {
     id: new Date(),
     company,
     status,
-    information,
     contacts,
+    performance,
     editing: false
   }
   this.props.dispatch({
@@ -24,8 +24,8 @@ class PostForm extends Component {
   })
   this.getCompany.value = '';
   this.getStatus.value = '';
-  this.getInformation.value = '';
   this.getContacts.value = '';
+  this.getPerformance.value = '';
 
   }
   
@@ -39,10 +39,10 @@ class PostForm extends Component {
       placeholder="Enter Company Name..." /><br /><br />
       <input required type="text" ref={(input) => this.getStatus = input}
       placeholder="Enter Status..." /><br /><br />
-      <textarea required rows="5" ref={(input) => this.getInformation = input}
-      cols="28" placeholder="Enter Company Information..." /><br /><br />
       <input required type="text" ref={(input) => this.getContacts = input}
       placeholder="Enter Key Contacts..." /><br /><br />
+      <input required type="text" ref={(input) => this.getPerformance = input}
+      placeholder="Enter Financial Performance..." /><br /><br />
       <button onClick={() => { alert('View Target Companies on the View Page!') }}>Submit</button>
       </form>
     </div>
