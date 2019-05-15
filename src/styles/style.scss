@@ -17,6 +17,7 @@ body {
     display: flex; 
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .main {
@@ -28,21 +29,27 @@ body {
     display: flex;
 }
 
-.one-page {
+.cover-page {
     background: url("../images/mbg.jpg") center center no-repeat;
-    background-size: cover;
-    color: #fff;
+    // background-size: cover;
     
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     
     // text-align: center;
 
-    height: 100vh;
-    width: 100%;
+    height: 110vh;
+    width: auto;
 
-    margin-bottom: 50px;
+    // margin-top: 0px;
+    // // margin-bottom: 50px;
+
+    // box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+    
+    margin: -120px 0px 60px 0px; /* play with these to position the image */
+    // position:absolute;
+    z-index:-1000;
 }
 
 

@@ -39,7 +39,10 @@
         border-radius: 4px;
         letter-spacing: 1px;
         cursor: pointer;
-        background-color: $submitBtn;
+        
+        background-color: #fc9842;
+        background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
+
         font-weight: 100;
     }
 }

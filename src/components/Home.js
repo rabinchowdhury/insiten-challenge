@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import OnePage from './OnePage';
+import CoverPage from './CoverPage';
 
 import Titles from './Titles';
 import PostForm from './PostForm';
@@ -10,7 +10,7 @@ class Home extends Component {
   render() {
     return (
         <div>
-          <OnePage />
+          <CoverPage />
           <div className="wrapper">
             <div className="main">
               <div className="container">
