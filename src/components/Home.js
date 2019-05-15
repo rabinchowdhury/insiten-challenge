@@ -5,11 +5,17 @@ import CoverPage from './CoverPage';
 import Titles from './Titles';
 import PostForm from './PostForm';
 
+import {
+  NavLink
+} from "reactstrap";
+
+
 class Home extends Component {
 
   render() {
     return (
         <div>
+          <button><NavLink href="/about">Hello</NavLink></button>
           <CoverPage />
           <div className="wrapper">
             <div className="main">

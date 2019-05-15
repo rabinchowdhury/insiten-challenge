@@ -3,6 +3,8 @@ import React, { Component } from "react";
 // Promise based HTTP client for the browser and node.js
 import axios from "axios";
 
+import Profile from './Profile';
+
 class About extends Component {
   state = {
     posts: []
@@ -34,6 +36,7 @@ class About extends Component {
     );
     return (
       <div>
+        <Profile />
         {postList}
       </div>
     );
