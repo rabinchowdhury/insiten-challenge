@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react';
+
 import { PieChart, Pie, Sector } from 'recharts';
 
 const data = [

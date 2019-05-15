@@ -7,6 +7,8 @@ import AllPost from './AllPost';
 
 import DoughnutGraph from './DoughnutGraph';
 
+import HelpBtn from './HelpBtn';
+
 class Targets extends Component {
 
   render() {
@@ -16,6 +18,7 @@ class Targets extends Component {
         <DoughnutGraph /> 
         <TableBox />
         <AllPost />
+        <HelpBtn />
       </div>
     );
   }

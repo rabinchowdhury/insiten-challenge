@@ -1,4 +1,5 @@
 import React from "react";
+
 import { MDBInput, MDBCol } from "mdbreact";
 
 const SearchBar = () => {

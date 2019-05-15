@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-import Feed from './Feed';
-
 import SearchBar from './SearchBar';
-
+import Feed from './Feed';
 import  '.././Feed.css';
+
+import HelpBtn from './HelpBtn';
 
 export default class FeedPage extends Component {
   render() {
@@ -12,6 +12,7 @@ export default class FeedPage extends Component {
       <div>
         <SearchBar />
         <Feed />
+        <HelpBtn/ >
       </div>
     )
   }

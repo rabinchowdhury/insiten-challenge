@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 
-import { Table } from 'reactstrap';
-
 import { connect } from 'react-redux';
+import { Table } from 'reactstrap';
 
 class Post extends Component {
 

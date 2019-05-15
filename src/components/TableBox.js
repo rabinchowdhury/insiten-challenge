@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Table } from 'reactstrap';
 
-export default class TableBox extends Component {
+class TableBox extends Component {
   render() {
     return (
       <div>
@@ -23,3 +23,5 @@ export default class TableBox extends Component {
     )
   }
 }
+
+export default TableBox;
