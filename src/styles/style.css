@@ -215,15 +215,6 @@ body {
   display: flex;
 }
 
-.cover-page {
-  background: url("../images/mbg.jpg") center center no-repeat;
-  height: 110vh;
-  width: auto;
-  margin: -120px 0px 60px 0px;
-  /* play with these to position the image */
-  z-index: -1000;
-}
-
 .profile {
   font-size: 20px;
   font-weight: 200;
@@ -251,10 +242,7 @@ body {
   font-weight: 300;
 }
 
-.profile-pic {
-  height: 250px;
-  width: 30%;
-  border-radius: 100%;
-  margin-right: 20px;
+.navbar {
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */

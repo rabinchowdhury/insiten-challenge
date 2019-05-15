@@ -29,28 +29,28 @@ body {
     display: flex;
 }
 
-.cover-page {
-    background: url("../images/mbg.jpg") center center no-repeat;
-    // background-size: cover;
+// .cover-page {
+//     background: url("../images/mbg.jpg") center center no-repeat;
+//     background-size: cover;
     
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
     
-    // text-align: center;
+//     text-align: center;
 
-    height: 110vh;
-    width: auto;
+//     height: 110vh;
+//     width: auto;
 
-    // margin-top: 0px;
-    // // margin-bottom: 50px;
+//     margin-top: 0px;
+//     margin-bottom: 50px;
 
-    // box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+//     box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
     
-    margin: -120px 0px 60px 0px; /* play with these to position the image */
-    // position:absolute;
-    z-index:-1000;
-}
+//     margin: -120px 0px 60px 0px; 
+//     position:absolute;
+//     z-index:-1000;
+// }
 
 .profile {
     font-size: 20px;
@@ -73,10 +73,14 @@ body {
     font-weight: 300;
 }
 
-.profile-pic {
-    height: 250px;
-    width: 30%;
-    border-radius: 100%;
-    // border:  solid;
-    margin-right: 20px;
+// .profile-pic {
+//     height: 250px;
+//     width: 30%;
+//     border-radius: 100%;
+//     // border:  solid;
+//     margin-right: 20px;
+// }
+
+.navbar {
+    margin-bottom: 20px;
 }

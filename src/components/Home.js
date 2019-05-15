@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import CoverPage from './CoverPage';
+// import CoverPage from './CoverPage';
 
 import Titles from './Titles';
 import PostForm from './PostForm';
@@ -15,8 +15,7 @@ class Home extends Component {
   render() {
     return (
         <div>
-          <button><NavLink href="/about">Hello</NavLink></button>
-          <CoverPage />
+          {/* <CoverPage /> */}
           <div className="wrapper">
             <div className="main">
               <div className="container">
