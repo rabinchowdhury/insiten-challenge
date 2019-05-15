@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 
-import PostForm from './PostForm';
+import OnePage from './OnePage';
+
 import Titles from './Titles';
+import PostForm from './PostForm';
 
 class Home extends Component {
 
   render() {
     return (
-              <div>
+        <div>
+          <OnePage />
           <div className="wrapper">
             <div className="main">
               <div className="container">
