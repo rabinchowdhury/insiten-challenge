@@ -1,4 +1,4 @@
-This is the code repository for the code challenge. I hope you like it! 
+This is the code repository for the code challenge. 
 
 You can visit here to see the [Insiten Challenge](https://ma-app-2c945.web.app/) application.
 
