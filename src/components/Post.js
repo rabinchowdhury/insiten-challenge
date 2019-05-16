@@ -8,7 +8,7 @@ class Post extends Component {
   render() {
     return (
       <div>
-      <Table>
+      <Table className="table">
         <thead>
           <tr>
             <th>Status</th>

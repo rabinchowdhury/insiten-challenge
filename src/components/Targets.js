@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-import SearchBar from './SearchBar';
+// import TableBox from './TableBox';
 
-import TableBox from './TableBox';
 import AllPost from './AllPost';
-
 import DoughnutGraph from './DoughnutGraph';
 
 import HelpBtn from './HelpBtn';
+
+import SearchBar from './SearchBar';
 
 class Targets extends Component {
 
@@ -16,7 +16,6 @@ class Targets extends Component {
       <div>
         <SearchBar />
         <DoughnutGraph /> 
-        <TableBox />
         <AllPost />
         <HelpBtn />
       </div>
