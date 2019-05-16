@@ -1,5 +1,5 @@
 .control-buttons {
-    display:flex;
+    display: flex;
 }
 
 .delete {
@@ -7,14 +7,14 @@
     background-color: #fc9842;
     background-image: linear-gradient(315deg, #fc9842 0%, #fe5f75 74%);
 
-    border:none;
+    border: none;
     text-align: center;
-    font-size:15px;
+    font-size: 15px;
     padding:10px 25px;
-    border-radius:4px;
-    cursor:pointer;
+    border-radius: 4px;
+    cursor: pointer;
     outline: none;
-    color:#fff;
+    color: #fff;
 }
 
 .edit {
@@ -22,13 +22,13 @@
     background-color: #06bcfb;
     background-image: linear-gradient(315deg, #06bcfb 0%, #4884ee 74%);
 
-    border:none;
+    border: none;
     text-align: center;
-    font-size:15px;
-    padding:10px 25px;
-    border-radius:4px;
-    cursor:pointer;
-    margin-right:auto;
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: auto;
     outline: none;
     color:#fff;
 }

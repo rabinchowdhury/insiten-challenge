@@ -1,3 +1,5 @@
+// A store holds the whole state tree of your application. The only way to change the state inside it is to dispatch an action on it.
+
 const postReducer = (state = [], action) => {
   
   switch (action.type) {

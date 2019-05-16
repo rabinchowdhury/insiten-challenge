@@ -4,6 +4,7 @@ import CoverPage from './CoverPage';
 import PostForm from './PostForm';
 
 import HelpBtn from './HelpBtn';
+import ViewPortBtn from './ViewPortBtn';
 
 class Home extends Component {
 
@@ -17,7 +18,7 @@ class Home extends Component {
               <div className="row">
                 <div className="col-xs-5 title-container">
                   <div>
-                    <h3 className="title-container__title"><u>Morning, </u> <u>Bruce</u></h3>
+                    <h3 className="title-container__title"><u>Morning</u>,<u>Bruce</u></h3>
                     <p className="title-container__subtitle">Track and analyze potential target companies...</p>
                   </div>
                 </div>
@@ -30,6 +31,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
+        <ViewPortBtn />
         <HelpBtn />
       </div>
     );

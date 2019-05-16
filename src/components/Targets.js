@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-// import TableBox from './TableBox';
-
 import AllPost from './AllPost';
 import DoughnutGraph from './DoughnutGraph';
 

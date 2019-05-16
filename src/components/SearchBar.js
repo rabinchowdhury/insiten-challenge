@@ -4,7 +4,7 @@ import { MDBInput, MDBCol } from "mdbreact";
 
 const SearchBar = () => {
   return (
-    <MDBCol md="6">
+    <MDBCol md="6" className="search-bar">
       <MDBInput hint="Search for Target Companies" type="text" containerClass="mt-0" />
     </MDBCol>
   );

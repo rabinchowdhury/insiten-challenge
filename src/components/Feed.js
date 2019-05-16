@@ -1,7 +1,7 @@
 import React  from 'react'
 
 const Title = () => (
-	<p className="search-title">Search Results:</p>
+	<p className="search-title"><b>Search Results:</b></p>
 );
 
 const ArticlesListItem = ({ article }) => (

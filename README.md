@@ -1,6 +1,6 @@
-This is the code repository for the Insiten code challenge. 
+This is the code repository for the code challenge. I hope you like it! 
 
-You can visit here to see the [Insiten Challenge](https://ma-app-2c945.web.app/)
+You can visit here to see the [Insiten Challenge](https://ma-app-2c945.web.app/) application.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
